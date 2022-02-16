@@ -1,0 +1,18 @@
+{
+  "watch": [
+    "TypeScripts/controllers",
+    "TypeScripts/models",
+    "./app.js",
+    "./views"
+  ],
+  "ext": "ts, js, json, pug, html",
+  "ignore": ["node_modules"],
+  "exec": "tsc -b TypeScripts/models/ && tsc -b TypeScripts/controllers/ &&",
+  "execMap": {
+    "ts": "ts-node"
+  },
+  "restarable": "rs",
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
