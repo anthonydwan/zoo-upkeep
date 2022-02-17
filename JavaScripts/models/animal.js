@@ -1,10 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const mongoose_1 = require("mongoose");
-const modelTypes_1 = require("./modelTypes");
 let AnimalSchema = new mongoose_1.Schema({
     name: {
-        type: modelTypes_1.animalList,
+        type: String,
         required: true,
         minlength: [2, "are you sure that's the name of animal?"],
         maxlength: 60,

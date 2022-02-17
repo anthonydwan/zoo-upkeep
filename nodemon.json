@@ -7,7 +7,7 @@
   ],
   "ext": "ts, js, json, pug, html",
   "ignore": ["node_modules"],
-  "exec": "tsc -b TypeScripts/models/ && tsc -b TypeScripts/controllers/ &&",
+  "exec": "tsc -b TypeScripts/models/ && tsc -b TypeScripts/controllers/ && tsc -b TypeScripts/routes/ &&",
   "execMap": {
     "ts": "ts-node"
   },

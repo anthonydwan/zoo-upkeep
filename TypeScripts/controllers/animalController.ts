@@ -1,6 +1,10 @@
 let Animal = require('../models/animal');
 import { Request, Response, NextFunction } from 'express';
 
+exports.index = (req: Request, res: Response, next: NextFunction) => {
+  res.send('NOT IMPLEMENTED: Site Home Page');
+};
+
 // Display list of all Animals.
 exports.animal_list = (req: Request, res: Response, next: NextFunction) => {
   res.send('NOT IMPLEMENTED: Animal list');

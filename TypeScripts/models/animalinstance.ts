@@ -1,4 +1,4 @@
-import { Schema, model, Types } from "mongoose";
+import { Schema, model} from "mongoose";
 import { AnimalinstanceDocument } from "./modelTypes";
 
 const AnimalinstanceSchema = new Schema({

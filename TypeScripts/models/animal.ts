@@ -3,7 +3,7 @@ import { AnimalDocument, animalList } from "./modelTypes";
 
 let AnimalSchema = new Schema({
   name: {
-    type: animalList,
+    type: String,
     required: true,
     minlength: [2, "are you sure that's the name of animal?"],
     maxlength: 60,

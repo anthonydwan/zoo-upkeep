@@ -19,7 +19,7 @@ describe("basic testing existing routes on the app.js", () => {
   });
 
   test("GET animal instances page --> should pass", () => {
-    return request(app).get("/animalinstance/").expect(200);
+    return request(app).get("/animalinstances/").expect(200);
   });
 
   test("GET --> animal does not exist", () => {

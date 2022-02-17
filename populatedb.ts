@@ -30,7 +30,7 @@ import {
   bioList,
   BioorderDocument,
   AnimalinstanceDocument,
-} from "./modelTypes";
+} from "./TypeScripts/models/modelTypes";
 import { TemplateMiddle } from "typescript";
 
 const mongoDB = userArgs[0];
